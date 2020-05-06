@@ -9,7 +9,7 @@ LABEL "repository"="http://github.com/nathane/curl"
 LABEL "homepage"="http://github.com/nathane/curl"
 LABEL "maintainer"="Nathan Esayeas"
 
-RUN apk add --no-cache curl ca-certificates
+RUN apk add --update --no-cache curl ca-certificates jq
 
 ADD *.sh /
 
