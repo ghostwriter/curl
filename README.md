@@ -4,6 +4,7 @@
 
 - make http requests
 - catch http errors
+- pipe JSON response through jq
 
 ## Usage
 
@@ -18,7 +19,7 @@ jobs:
     - name: curl
       uses: nathane/curl@master
       with:
-        args: https://httpbin.org/get
+        args: 'https://httpbin.org/get' | jq '.'
 ```
 
 ### Docker
