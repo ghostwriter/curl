@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: curl
-      uses: ghostwriter/curl@master
+      uses: ghostwriter/curl@main
       with:
         args: 'https://httpbin.org/get' | jq '.'
 ```
