@@ -1,4 +1,6 @@
-# curl for GitHub Actions
+# Curl
+
+Curl for GitHub Actions
 
 ## Features
 
